@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+.vite/
+.turbo/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Tauri / Rust
+src-tauri/target/
+**/*.rs.bk
+Cargo.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Python helpers / scripts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# SQLite / local app data
+*.sqlite
+*.sqlite3
+*.db
+app-data/
+artifacts/
+
+# Playwright / browser automation
+playwright-report/
+test-results/
+blob-report/
+.browser-profiles/
+.storage-state/
+
+# Scheduler and local runner temp files
+.tmp/
+run-logs/
+
+# Mac app bundles / installer outputs
+*.app
+*.dmg
+
+# Windows installer outputs
+*.msi
+*.exe
